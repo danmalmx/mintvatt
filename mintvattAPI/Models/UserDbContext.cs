@@ -1,15 +1,10 @@
 ﻿using System;
-using Microsoft.EntityFrameworkCore;
-
 namespace mintvattAPI.Models
 {
-    public class UserDbContext : DbContext
+    public class UserDbContext
     {
-        public UserDbContext(DbContextOptions<UserDbContext> options) : base(options)
+        public UserDbContext()
         {
         }
-
-        public DbSet<User> Users { get; set; }
-
     }
 }
