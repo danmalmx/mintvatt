@@ -1,3 +1,3 @@
 # mintvatt.nu
 
-## Boka tvättstugan på nätet. Låt grannar vet om extra tvätttid.
+### Boka tvättstugan på nätet. Låt grannar veta när det finns extra tvätttid ledig.
