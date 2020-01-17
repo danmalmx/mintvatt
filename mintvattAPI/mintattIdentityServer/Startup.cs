@@ -18,8 +18,8 @@ namespace mintattIdentityServer
         {
             services.AddIdentityServer()
                 .AddDeveloperSigningCredential()
-                .AddInMemoryApiResources(Configure.GetAllApiResources())
-                .AddInMemoryClients(Configure.GetClients());
+                .AddInMemoryApiResources(Config.GetAllApiResources())
+                .AddInMemoryClients(Config.GetUsers());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
