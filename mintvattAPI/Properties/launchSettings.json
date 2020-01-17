@@ -17,6 +17,7 @@
     },
     "mintvattAPI": {
       "commandName": "Project",
+      "launchUrl": "api/user",
       "launchBrowser": true,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
