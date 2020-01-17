@@ -1,34 +1,3 @@
 ﻿<Properties StartupConfiguration="{BE01F82D-7939-4F1D-8E6A-99D2B0E8EAC0}|Default">
-  <MonoDevelop.Ide.ItemProperties.mintvattAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Properties/launchSettings.json">
-    <Files>
-      <File FileName=".gitignore" Line="323" Column="9" />
-      <File FileName="Models/User.cs" />
-      <File FileName="Startup.cs" Line="37" Column="80" />
-      <File FileName="appsettings.json" Line="13" Column="2" />
-      <File FileName="Models/UserDbContext.cs" />
-      <File FileName="Controllers/UserController.cs" Line="1" Column="1" />
-      <File FileName="Properties/launchSettings.json" Line="20" Column="21" />
-    </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="mintvattAPI" expanded="True">
-            <Node name="mintvattAPI" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Properties" expanded="True">
-                <Node name="launchSettings.json" selected="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
-  </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
