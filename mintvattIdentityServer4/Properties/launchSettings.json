@@ -3,19 +3,19 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:39566",
-      "sslPort": 44395
+      "applicationUrl": "http://localhost:3572",
+      "sslPort": 44377
     }
   },
   "profiles": {
     "IIS Express": {
       "commandName": "IISExpress",
+      "launchBrowser": true,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      },
-      "applicationUrl": "http://localhost:5000/"
+      }
     },
-    "mintattIdentityServer": {
+    "mintvattIdentityServer4": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {

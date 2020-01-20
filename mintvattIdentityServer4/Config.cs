@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using IdentityServer4.Models;
 
-namespace mintattIdentityServer
+namespace mintvattIdentityServer4
 {
     public class Config
     {
@@ -31,6 +31,5 @@ namespace mintattIdentityServer
                 }
             };
         }
-
     }
 }

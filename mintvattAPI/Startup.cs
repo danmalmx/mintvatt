@@ -30,7 +30,7 @@ namespace mintvattAPI
             services.AddAuthentication("Bearer")
                 .AddIdentityServerAuthentication(options =>
                 {
-                    options.Authority = "https://localhost:5003";
+                    options.Authority = "http://localhost:5000";
                     options.RequireHttpsMetadata = false;
                     options.ApiName = "mintvattAPI";
                 });
