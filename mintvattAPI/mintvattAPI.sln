@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mintvattAPI", "mintvattAPI.csproj", "{BE01F82D-7939-4F1D-8E6A-99D2B0E8EAC0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mintattIdentityServer", "mintattIdentityServer\mintattIdentityServer.csproj", "{510A82D9-812D-41F3-99D3-3C6F87828928}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +15,9 @@ Global
 		{BE01F82D-7939-4F1D-8E6A-99D2B0E8EAC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE01F82D-7939-4F1D-8E6A-99D2B0E8EAC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE01F82D-7939-4F1D-8E6A-99D2B0E8EAC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{510A82D9-812D-41F3-99D3-3C6F87828928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{510A82D9-812D-41F3-99D3-3C6F87828928}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{510A82D9-812D-41F3-99D3-3C6F87828928}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{510A82D9-812D-41F3-99D3-3C6F87828928}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -5,9 +5,11 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using mintvattAPI.Models;
 
 namespace mintvattAPI
 {
@@ -23,7 +25,19 @@ namespace mintvattAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //Add Conenction Scrting injection
+            services.AddDbContext<UserDbContext>(option => option.UseSqlServer(Configuration.GetConnectionString("AzureCloudSQL")));
+            services.AddAuthentication("Bearer")
+                .AddIdentityServerAuthentication(options =>
+                {
+                    options.Authority = "https://localhost:5003";
+                    options.RequireHttpsMetadata = false;
+                    options.ApiName = "mintvattAPI";
+                });
             services.AddControllersWithViews();
+
+            //Disabling naming policy (case sensitivity)
+            services.AddMvc().AddJsonOptions(options => options.JsonSerializerOptions.PropertyNamingPolicy = null);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -45,6 +59,7 @@ namespace mintvattAPI
             app.UseRouting();
 
             app.UseAuthorization();
+            app.UseAuthentication();
 
             app.UseEndpoints(endpoints =>
             {
