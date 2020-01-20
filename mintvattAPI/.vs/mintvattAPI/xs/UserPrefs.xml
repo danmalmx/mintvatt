@@ -1,20 +1,26 @@
 ﻿<Properties StartupConfiguration="{BE01F82D-7939-4F1D-8E6A-99D2B0E8EAC0}|Default">
   <MonoDevelop.Ide.ItemProperties.mintattIdentityServer PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.ItemProperties.mintvattAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/UserController.cs">
     <Files>
       <File FileName="mintattIdentityServer/Properties/launchSettings.json" Line="27" Column="2" />
       <File FileName="Program.cs" Line="27" Column="1" />
       <File FileName="mintattIdentityServer/Startup.cs" Line="36" Column="21" />
       <File FileName="mintattIdentityServer/Config.cs" Line="16" Column="1" />
-      <File FileName="Startup.cs" Line="30" Column="1" />
+      <File FileName="Startup.cs" Line="62" Column="37" />
+      <File FileName="Controllers/UserController.cs" Line="12" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="mintvattAPI" expanded="True">
+            <Node name="mintattIdentityServer" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+            </Node>
             <Node name="mintvattAPI" expanded="True">
-              <Node name="Startup.cs" selected="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="UserController.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
