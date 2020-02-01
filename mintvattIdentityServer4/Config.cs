@@ -14,7 +14,7 @@ namespace mintvattIdentityServer4
             };
         }
 
-        public static IEnumerable<Client> GetUsers()
+        public static IEnumerable<Client> GetClients()
         {
             return new List<Client> {
 

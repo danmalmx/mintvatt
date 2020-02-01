@@ -25,16 +25,20 @@ namespace mintvattAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //Add Conenction Scrting injection
-            services.AddDbContext<UserDbContext>(option => option.UseSqlServer(Configuration.GetConnectionString("AzureCloudSQL")));
+
+            //Authentication injection
             services.AddAuthentication("Bearer")
                 .AddIdentityServerAuthentication(options =>
                 {
-                    options.Authority = "http://localhost:5000";
+                    options.Authority = "https://localhost:5003";
                     options.RequireHttpsMetadata = false;
                     options.ApiName = "mintvattAPI";
                 });
-            services.AddControllersWithViews();
+
+            //Add Conenction Scrting injection
+            services.AddDbContext<UserDbContext>(option => option.UseSqlServer(Configuration.GetConnectionString("AzureCloudSQL")));
+
+            services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
             //Disabling naming policy (case sensitivity)
             services.AddMvc().AddJsonOptions(options => options.JsonSerializerOptions.PropertyNamingPolicy = null);
@@ -54,12 +58,14 @@ namespace mintvattAPI
                 app.UseHsts();
             }
             app.UseHttpsRedirection();
+
             app.UseStaticFiles();
 
             app.UseRouting();
 
-            app.UseAuthorization();
             app.UseAuthentication();
+
+            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {

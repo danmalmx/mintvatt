@@ -39,13 +39,13 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "IdentityServer4": {
-              "target": "Package",
-              "version": "[3.1.0, )"
-            },
             "IdentityServer4.EntityFramework": {
               "target": "Package",
               "version": "[3.1.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[3.1.1, )"
             }
           },
           "imports": [

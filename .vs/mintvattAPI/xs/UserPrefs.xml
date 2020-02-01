@@ -1,16 +1,19 @@
 ﻿<Properties StartupConfiguration="{A5F9824F-17A4-4876-B7C1-59953978BDD9}|Default">
   <MonoDevelop.Ide.ItemProperties.mintvattAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="mintvattIdentityServer4/Config.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="mintvattAPI/Controllers/UserController.cs">
     <Files>
-      <File FileName="mintvattIdentityServer4/Startup.cs" Line="23" Column="56" />
-      <File FileName="mintvattIdentityServer4/Config.cs" Line="25" Column="36" />
+      <File FileName="mintvattAPI/Startup.cs" Line="68" Column="36" />
+      <File FileName="mintvattAPI/Controllers/UserController.cs" Line="13" Column="15" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="mintvattAPI" expanded="True">
-            <Node name="mintvattIdentityServer4" expanded="True">
-              <Node name="Config.cs" selected="True" />
+            <Node name="mintvattAPI" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="UserController.cs" selected="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -19,7 +22,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.mintvattIdentityServer4 FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.mintvattIdentityServer4 PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
