@@ -1,17 +1,19 @@
-﻿<Properties StartupConfiguration="{A5F9824F-17A4-4876-B7C1-59953978BDD9}|Default">
+﻿<Properties StartupConfiguration="{B6037644-EC56-4983-9104-DAAFCDEC5AE7}|Default">
   <MonoDevelop.Ide.ItemProperties.mintvattAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="mintvattIdentityServer4/Config.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="mintvattIdentityServer4/Startup.cs">
     <Files>
-      <File FileName="mintvattAPI/Startup.cs" Line="68" Column="36" />
-      <File FileName="mintvattIdentityServer4/Startup.cs" Line="1" Column="1" />
-      <File FileName="mintvattIdentityServer4/Config.cs" Line="35" Column="2" />
+      <File FileName="mintvattIdentityServer4/Startup.cs" Line="42" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="mintvattAPI" expanded="True">
             <Node name="mintvattIdentityServer4" expanded="True">
-              <Node name="Config.cs" selected="True" />
+              <Node name="Quickstart" expanded="True">
+                <Node name="Account" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True" />
+              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -25,4 +27,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.mintvatt.MVC FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
